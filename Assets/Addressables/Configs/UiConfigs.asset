@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0912607e574b4dacb5cee8cd4d10b13, type: 3}
   m_Name: UiConfigs
   m_EditorClassIdentifier: 
-  _loadingSpinnerType: 
   _configs:
   - AddressableAddress: Addressables/Prefabs/UI/Compliance Screen.prefab
     Layer: 10
@@ -44,22 +43,29 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   _sets:
   - SetId: 0
-    UiConfigsType:
-    - Game.Presenters.LoadingScreenPresenter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-    - Game.Presenters.LoadingScreenPresenter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
+    UiEntries:
+    - UiTypeName: Game.Presenters.LoadingScreenPresenter, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      InstanceAddress: 
+    - UiTypeName: Game.Presenters.LoadingScreenPresenter, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      InstanceAddress: 
   - SetId: 1
-    UiConfigsType:
-    - Game.Presenters.MainMenuPresenter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
+    UiEntries:
+    - UiTypeName: Game.Presenters.MainMenuPresenter, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      InstanceAddress: Addressables/Prefabs/UI/Main Menu.prefab
   - SetId: 2
-    UiConfigsType:
-    - Game.Presenters.GameOverScreenPresenter, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    - Game.Presenters.MainHudPresenter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-    - Game.Presenters.PausePopUpPresenter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-    - Game.Presenters.WinScreenPresenter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
+    UiEntries:
+    - UiTypeName: Game.Presenters.GameOverScreenPresenter, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      InstanceAddress: Addressables/Prefabs/UI/GameOver.prefab
+    - UiTypeName: Game.Presenters.MainHudPresenter, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      InstanceAddress: Addressables/Prefabs/UI/MainHud.prefab
+    - UiTypeName: Game.Presenters.PausePopUpPresenter, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      InstanceAddress: Addressables/Prefabs/UI/Pause PopUp.prefab
+    - UiTypeName: Game.Presenters.WinScreenPresenter, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      InstanceAddress: Addressables/Prefabs/UI/Win Screen.prefab

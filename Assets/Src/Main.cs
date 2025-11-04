@@ -42,7 +42,7 @@ namespace Game
 
 			installer.Bind<IMessageBrokerService>(new MessageBrokerService());
 			installer.Bind<ITimeService>(new TimeService());
-			installer.Bind<GameUiService, IGameUiServiceInit, IGameUiService>(new GameUiService(new UiAssetLoader()));
+			installer.Bind<GameUiService, IGameUiServiceInit, IGameUiService>(new GameUiService(new UiAssetLoader(), new UiAnalytics()));
 			installer.Bind<IPoolService>(new PoolService());
 			installer.Bind<ITickService>(new TickService());
 			installer.Bind<ICoroutineService>(new CoroutineService());

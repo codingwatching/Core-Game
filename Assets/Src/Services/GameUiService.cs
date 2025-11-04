@@ -33,7 +33,7 @@ namespace Game.Services
 	/// <inheritdoc cref="IGameUiService"/>
 	public class GameUiService : UiService, IGameUiServiceInit
 	{
-		public GameUiService(IUiAssetLoader assetLoader) : base(assetLoader)
+		public GameUiService(IUiAssetLoader assetLoader, IUiAnalytics uiAnalytics) : base(assetLoader, uiAnalytics)
 		{
 		}
 		

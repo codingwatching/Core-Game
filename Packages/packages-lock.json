@@ -12,7 +12,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "f213ff497e4ff462a77319cf677cf20cc0860ca9"
+      "hash": "73a63b7f672b88f7e9992f6917eb458a8cbb6fa9"
     },
     "com.gamelovers.assetsimporter": {
       "version": "https://github.com/CoderGamester/Unity-AssetsImporter.git",
@@ -31,14 +31,14 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "f9c2b7acecbc222d184dc5aac9744eebf36b1164"
+      "hash": "11a8bbfd5f3e0b449684cfba9970f66d56672bc1"
     },
     "com.gamelovers.dataextensions": {
       "version": "https://github.com/CoderGamester/com.gamelovers.dataextensions.git",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "4182bdc2b6f093b974e701d2708743c64f6b7c33"
+      "hash": "df581c82b879b5488b2f27cc2f87db65a1044852"
     },
     "com.gamelovers.googlesheetimporter": {
       "version": "https://github.com/CoderGamester/Unity-GoogleSheet-Importer.git",
@@ -58,7 +58,7 @@
       "dependencies": {
         "com.gamelovers.dataextensions": "0.6.2"
       },
-      "hash": "9cf72f85d107f7f292881bb47f05ddaa698f339f"
+      "hash": "cd816d1f3333250d48c9c5abb1511d1cf8949fe7"
     },
     "com.gamelovers.statechart": {
       "version": "https://github.com/CoderGamester/com.gamelovers.statechart.git",
@@ -74,11 +74,10 @@
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.unity.addressables": "1.22.0",
-        "com.cysharp.unitask": "2.5.10",
-        "com.unity.textmeshpro": "3.0.9"
+        "com.unity.addressables": "2.6.0",
+        "com.cysharp.unitask": "2.5.10"
       },
-      "hash": "97e607dee6f704870105a7ed165edf566520baff"
+      "hash": "7a173a9ad9b53a03c8c5ac9eb30103494f6c0918"
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
@@ -87,7 +86,7 @@
       "dependencies": {}
     },
     "com.unity.addressables": {
-      "version": "2.6.0",
+      "version": "2.7.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -97,13 +96,13 @@
         "com.unity.modules.jsonserialize": "1.0.0",
         "com.unity.modules.imageconversion": "1.0.0",
         "com.unity.modules.unitywebrequest": "1.0.0",
-        "com.unity.scriptablebuildpipeline": "2.4.0",
+        "com.unity.scriptablebuildpipeline": "2.4.3",
         "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.ai.navigation": {
-      "version": "2.0.8",
+      "version": "2.0.9",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -112,7 +111,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
-      "version": "1.8.23",
+      "version": "1.8.25",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -122,7 +121,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.cinemachine": {
-      "version": "3.1.4",
+      "version": "3.1.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -132,19 +131,20 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collections": {
-      "version": "2.5.1",
+      "version": "2.6.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.burst": "1.8.17",
-        "com.unity.test-framework": "1.4.5",
-        "com.unity.nuget.mono-cecil": "1.11.4",
+        "com.unity.burst": "1.8.23",
+        "com.unity.mathematics": "1.3.2",
+        "com.unity.test-framework": "1.4.6",
+        "com.unity.nuget.mono-cecil": "1.11.5",
         "com.unity.test-framework.performance": "3.0.3"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.device-simulator.devices": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -168,16 +168,16 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.ide.visualstudio": "2.0.23",
-        "com.unity.ide.rider": "3.0.36",
+        "com.unity.ide.visualstudio": "2.0.25",
+        "com.unity.ide.rider": "3.0.38",
         "com.unity.editorcoroutines": "1.0.0",
         "com.unity.performance.profile-analyzer": "1.2.3",
-        "com.unity.test-framework": "1.5.1",
-        "com.unity.testtools.codecoverage": "1.2.6"
+        "com.unity.test-framework": "1.6.0",
+        "com.unity.testtools.codecoverage": "1.2.7"
       }
     },
     "com.unity.ide.rider": {
-      "version": "3.0.36",
+      "version": "3.0.38",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -186,11 +186,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.23",
+      "version": "2.0.25",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.test-framework": "1.1.9"
+        "com.unity.test-framework": "1.1.31"
       },
       "url": "https://packages.unity.com"
     },
@@ -211,7 +211,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.memoryprofiler": {
-      "version": "1.1.8",
+      "version": "1.1.9",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -232,14 +232,14 @@
       }
     },
     "com.unity.nuget.mono-cecil": {
-      "version": "1.11.4",
+      "version": "1.11.5",
       "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.nuget.newtonsoft-json": {
-      "version": "3.2.1",
+      "version": "3.2.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -260,7 +260,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.scriptablebuildpipeline": {
-      "version": "2.4.0",
+      "version": "2.4.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -270,7 +270,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.services.analytics": {
-      "version": "6.0.3",
+      "version": "6.1.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -281,11 +281,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.services.cloud-diagnostics": {
-      "version": "1.0.10",
+      "version": "1.0.12",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.services.core": "1.12.5"
+        "com.unity.services.core": "1.12.5",
+        "com.unity.modules.unityanalytics": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -308,7 +309,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.splines": {
-      "version": "2.8.1",
+      "version": "2.8.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -319,7 +320,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.5.1",
+      "version": "1.6.0",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
@@ -329,7 +330,7 @@
       }
     },
     "com.unity.test-framework.performance": {
-      "version": "3.1.0",
+      "version": "3.2.0",
       "depth": 2,
       "source": "registry",
       "dependencies": {
@@ -339,7 +340,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.testtools.codecoverage": {
-      "version": "1.2.6",
+      "version": "1.2.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -347,14 +348,6 @@
         "com.unity.settings-manager": "1.0.1"
       },
       "url": "https://packages.unity.com"
-    },
-    "com.unity.textmeshpro": {
-      "version": "5.0.0",
-      "depth": 1,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.ugui": "2.0.0"
-      }
     },
     "com.unity.ugui": {
       "version": "2.0.0",

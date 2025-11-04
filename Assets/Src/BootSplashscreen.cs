@@ -23,19 +23,15 @@ namespace Game
 				_audioSource.Play();
 			}
 
-#if UNITY_PRO_LICENSE
 			UnityEngine.Rendering.SplashScreen.Begin();
 			UnityEngine.Rendering.SplashScreen.Draw();
 			
 			while (!UnityEngine.Rendering.SplashScreen.isFinished)
 			{
-				UnityEngine.Rendering.SplashScreen.Draw();
-				
 				yield return null;
 			}
-#endif
 
-			while (!asyncOperation.isDone)
+			while (asyncOperation != null && !asyncOperation.isDone)
 			{
 				yield return null;
 			}
